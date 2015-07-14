@@ -1,0 +1,41 @@
+.top-bar {
+	margin-bottom: 20px;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+}
+
+.book {
+	text-align: left;
+}
+
+.book h4 {
+	margin-top: 15px;
+}
+
+h6.price {
+	margin: 5px;
+	font-size: 18px;
+	color: green;
+	padding: 10px 10px 10px 0px;
+}
+
+div.panel {
+	height: 256px;
+}
+
+div.panel h4 {
+	height: 40px;
+}
+
+div.panel p {
+	height: 64px;
+}
+
+footer {
+	margin-top: 40px;
+	padding: 10px;
+	text-align: center;
+}
