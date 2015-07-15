@@ -7,19 +7,20 @@
 		</div>
 
 		<div class="large-8 columns">
-			<h2>{book.title}</h2>
-			<ul class="bookInfo">
-				<li>Category: {book.category}</li>
-				<li>Author: {book.author}</li>
-				<li>Publisher: {book.publisher}</li>
+			<ul class="pricing-table bookInfo">
+				<li class="title">{book.title}</li>
+				<li class="price">${book.price}</li>
+				<li class="description">{book.description}</li>
+				<li class="bullet-item">Category: {book.category}</li>
+				<li class="bullet-item">Author: {book.author}</li>
+				<li class="bullet-item">Publisher: {book.publisher}</li>
+				<li class="cta-button">
+					<form method="post" action="/cart/{book._id}">
+						<input type="submit" class="button success large" value="Add to Cart">
+						<input type="hidden" name="_csrf" value="{_csrf}">
+					</form>
+				</li>
 			</ul>
-			<br>
-			<p>{book.description}</p>
-			<div class="price">${book.price}</div>
-			<form method="post" action="/cart/{book._id}">
-				<input type="submit" class="button success" value="Add to Cart">
-				<input type="hidden" name="_csrf" value="{_csrf}">
-			</form>
 		</div>
 	</div>
 {/body}
