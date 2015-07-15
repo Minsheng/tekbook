@@ -1,0 +1,14 @@
+{>"layouts/master" /}
+
+{<title}
+	About TekBook
+{/title}
+
+{<body}
+	<div class="row">
+		<div class="large-12 columns">
+			<h2>About Us</h2>
+			<p>This is the about section.</p>
+		</div>
+	</div>
+{/body}

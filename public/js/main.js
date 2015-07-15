@@ -1,3 +1,4 @@
+// AJAX for removing books and categories
 $(document).ready(function() {
 	$('.removeBook').click(function(e) {
 		deleteId = $(this).data('id');

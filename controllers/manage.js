@@ -47,7 +47,7 @@ module.exports = function (router) {
 		});
 	});
 
-	// Add book
+	// Add Book
 	router.post('/books', function (req, res) {
 		// Get form values
 		var title = req.body.title && req.body.title.trim();
@@ -106,7 +106,7 @@ module.exports = function (router) {
 		});
 	});
 
-	// Edit book
+	// Edit Book
 	router.post('/books/edit/:id', function (req, res) {
 		// Get form values
 		var title = req.body.title && req.body.title.trim();
@@ -201,7 +201,7 @@ module.exports = function (router) {
 		});
 	});
 
-	// Edit book
+	// Edit Category
 	router.post('/categories/edit/:id', function (req, res) {
 		// Get form values
 		var name = req.body.name && req.body.name.trim();
