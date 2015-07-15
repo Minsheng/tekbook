@@ -39,3 +39,8 @@ footer {
 	padding: 10px;
 	text-align: center;
 }
+
+/* last item position */
+.column + .column:last-child, .columns + .column:last-child, .column + .columns:last-child, .columns + .columns:last-child {
+  float: left;
+}

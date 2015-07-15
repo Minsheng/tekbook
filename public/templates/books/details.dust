@@ -3,19 +3,19 @@
 {<body}
 	<div class="row">
 		<div class="large-4 columns">
-			<img src="/img/sample2.jpg">
+			<img src="/img/{book.cover}">
 		</div>
 
 		<div class="large-8 columns">
-			<h2>Sony Girl</h2>
+			<h2>{book.title}</h2>
 			<ul class="bookInfo">
-				<li>Category: Artbook</li>
-				<li>Author: 木下さくら</li>
-				<li>Publisher: 講談社</li>
+				<li>Category: {book.category}</li>
+				<li>Author: {book.author}</li>
+				<li>Publisher: {book.publisher}</li>
 			</ul>
 			<br>
-			<p>始めまして！ソニーガールである！</p>
-			<div class="price">$19.99</div>
+			<p>{book.description}</p>
+			<div class="price">${book.price}</div>
 			<a href="#" class="button success">Add to Cart</a>
 		</div>
 	</div>

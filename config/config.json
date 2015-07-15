@@ -33,7 +33,11 @@
         "contentPath": "path:./locales",
         "fallback": "en-US"
     },
-    
+
+    "databaseConfig": {
+        "host": "localhost",
+        "database": "tekbook"
+    },
 
     "specialization": {
     },

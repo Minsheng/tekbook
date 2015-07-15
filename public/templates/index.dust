@@ -2,84 +2,22 @@
 
 {<body}
 	<div class="row">
-	    <div class="large-4 small-12 columns book">
-			<img src="/img/sample0.jpg">
-			<div class="hide-for-small panel">
-				<h4>赤い帽子の術師の荒野冒険</h4>
-				<p>ずっとこの格好で生きてきたんだ。</p>
-				<h6 class="price">$9.99</h6>
-				<a href="/books/details/1" class="button small">Book Details</a>
-			</div>
-    	</div>
-
-	    <div class="large-8 columns">
+		<div class="large-12 columns">
 			<div class="row">
-				<div class="large-4 small-6 columns book">
-					<img src="/img/sample2.jpg">
+				{#books}
+					<div class="small-4 large-4 columns book">
+						<img src="/img/{.cover}">
 
-					<div class="panel">
-						<h4>Sony Girl</h4>
-						<p>始めまして！ソニーガールである！</p>
-						<h6 class="price">$19.99</h6>
-						<a href="/books/details/2" class="button small">Book Details</a>
+						<div class="panel">
+							<h4>{.title}</h4>
+							<p>{.truncText}</p>
+							<h6 class="price">${.price}</h6>
+							<a href="/books/details/{._id}" class="button small">Book Details</a>
+						</div>
 					</div>
-				</div>
-
-				<div class="large-4 small-6 columns book">
-					<img src="/img/sample3.jpg">
-
-					<div class="panel">
-						<h4>Valkyrieの戦術</h4>
-						<p>始めまして！いくぜ！</p>
-						<h6 class="price">$29.00</h6>
-						<a href="/books/details/3" class="button small">Book Details</a>
-					</div>
-				</div>
-
-				<div class="large-4 small-6 columns book">
-					<img src="/img/sample4.jpg">
-
-					<div class="panel">
-						<h4>新幹線について</h4>
-						<p>Everything about JR Railway</p>
-						<h6 class="price">$19.00</h6>
-						<a href="/books/details/4" class="button small">Book Details</a>
-					</div>
-				</div>
-
-				<div class="large-4 small-6 columns book">
-					<img src="/img/sample5.jpg">
-
-					<div class="panel">
-						<h4>北海道の風景</h4>
-						<p>向最北边进发。</p>
-						<h6 class="price">$69.00</h6>
-						<a href="/books/details/5" class="button small">Book Details</a>
-					</div>
-				</div>
-
-				<div class="large-4 small-6 columns book">
-					<img src="/img/sample6.jpg">
-
-					<div class="panel">
-						<h4>Mask Girl Photo Album</h4>
-						<p>体验京都风情！</p>
-						<h6 class="price">$30.00</h6>
-						<a href="/books/details/6" class="button small">Book Details</a>
-					</div>
-				</div>
-
-				<div class="large-4 small-6 columns book">
-					<img src="/img/sample1.jpg">
-
-					<div class="panel">
-						<h4>化け物語番外編</h4>
-						<p>Human or Monster?</p>
-						<h6 class="price">$60.00</h6>
-						<a href="/books/details/7" class="button small">Book Details</a>
-					</div>
-				</div>
+				{/books}
 			</div>
-	  	</div>
-  	</div>
+		</div>
+	</div>
+	
 {/body}
