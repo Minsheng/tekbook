@@ -1,0 +1,36 @@
+{>"layouts/manage" /}
+
+{<body}
+	<h2>Categories</h2>
+	<p><a href="/manage/categories/add">Add a category</a></p>
+	<table>
+		<thead>
+			<tr>
+				<th width="200">Category ID</th>
+				<th width="200">Category Name</th>
+				<th width="180"></th>
+				<th width="180"></th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>12345987</td>
+				<td>Category Test</td>
+				<td><a class="button tiny" href="/manage/categories/edit/1">Edit</a></td>
+				<td><a class="button tiny alert removeCategory" href="#">Delete</a></td>
+			</tr>
+			<tr>
+				<td>12345987</td>
+				<td>Category Test</td>
+				<td><a class="button tiny" href="/manage/categories/edit/1">Edit</a></td>
+				<td><a class="button tiny alert removeCategory" href="#">Delete</a></td>
+			</tr>
+			<tr>
+				<td>12345987</td>
+				<td>Category Test</td>
+				<td><a class="button tiny" href="/manage/categories/edit/1">Edit</a></td>
+				<td><a class="button tiny alert removeCategory" href="#">Delete</a></td>
+			</tr>
+		</tbody>
+	</table>
+{/body}

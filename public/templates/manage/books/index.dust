@@ -1,0 +1,47 @@
+{>"layouts/manage" /}
+
+{<body}
+	<h2>Book</h2>
+	<p><a href="/manage/books/add">Add a book</a></p>
+	<table>
+		<thead>
+			<tr>
+				<th width="200">Book ID</th>
+				<th width="200">Book Title</th>
+				<th width="200">Category</th>
+				<th width="180"></th>
+				<th width="180"></th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Some book book</td>
+				<td>Test Title</td>
+				<td>Test Category</td>
+				<td><a class="button tiny" href="/manage/edit/1">Edit</a></td>
+				<td><a class="button tiny alert removeBook" href="#">Delete</a></td>
+			</tr>
+			<tr>
+				<td>Some book book</td>
+				<td>Test Title</td>
+				<td>Test Category</td>
+				<td><a class="button tiny" href="/manage/edit/1">Edit</a></td>
+				<td><a class="button tiny alert removeBook" href="#">Delete</a></td>
+			</tr>
+			<tr>
+				<td>Some book book</td>
+				<td>Test Title</td>
+				<td>Test Category</td>
+				<td><a class="button tiny" href="/manage/edit/1">Edit</a></td>
+				<td><a class="button tiny alert removeBook" href="#">Delete</a></td>
+			</tr>
+			<tr>
+				<td>Some book book</td>
+				<td>Test Title</td>
+				<td>Test Category</td>
+				<td><a class="button tiny" href="/manage/edit/1">Edit</a></td>
+				<td><a class="button tiny alert removeBook" href="#">Delete</a></td>
+			</tr>
+		</tbody>
+	</table>
+{/body}
