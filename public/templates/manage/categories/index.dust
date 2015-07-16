@@ -2,14 +2,14 @@
 
 {<body}
 	<h2>Categories</h2>
-	<p><a href="/manage/categories/add">Add a category</a></p>
+	<a class="button radius small" href="/manage/categories/add">Add a category</a>
 	<table>
 		<thead>
 			<tr>
 				<th width="200">Category ID</th>
 				<th width="200">Category Name</th>
-				<th width="180"></th>
-				<th width="180"></th>
+				<th></th>
+				<th></th>
 			</tr>
 		</thead>
 		<tbody>
@@ -17,8 +17,8 @@
 			<tr>
 				<td>{._id}</td>
 				<td>{.name}</td>
-				<td><a class="button tiny" href="/manage/categories/edit/{._id}">Edit</a></td>
-				<td><a class="button tiny alert removeCategory" data-id="{._id}" href="#">Delete</a></td>
+				<td><a class="button tiny center" href="/manage/categories/edit/{._id}">Edit</a></td>
+				<td><a class="button tiny alert center removeCategory" data-id="{._id}" href="#">Delete</a></td>
 			</tr>
 			{/categories}
 		</tbody>

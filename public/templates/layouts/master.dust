@@ -10,7 +10,7 @@
     <body>
         <div class="row">
             <div class="large-12 columns">
-                <h1>Tekbook</h1>
+                <h1>Big <span class="header">Yellow</span> Book</h1>
             </div>
         </div>
 
@@ -38,7 +38,7 @@
         <footer>
             <div class="row">
                 <div class="large-12 columns">
-                    <p>Tekbook &copy; 2015 | <a href="/manage">Manage</a></p>
+                    <p>Big Yellow Book &copy; 2015 | <a href="/manage">Manage</a></p>
                 </div>
             </div>
         </footer>

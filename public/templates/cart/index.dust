@@ -6,7 +6,8 @@
 {<body}
 	<div class="row">
       	<div class="large-12 columns">
-    		<h2>Your Shopping Cart <span><a href="/cart/remove">Empty Cart</a></span></h2>
+    		<h2>Your Shopping Cart</h2>
+    		<a class="button radius small" href="/cart/remove">Empty Cart</a>
     		{?cart.items}
 	    		<table>
 				  <thead>
