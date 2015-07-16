@@ -35,8 +35,9 @@
     },
 
     "databaseConfig": {
-        "host": "localhost",
-        "database": "tekbook"
+        "host": "ds047792.mongolab.com",
+        "port": 47792,
+        "database": "bigyellowbookdb"
     },
 
     "specialization": {
