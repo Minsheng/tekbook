@@ -20,7 +20,7 @@
 				  <tbody>			 
 					  	{#cart.items}
 					  		<tr>
-						      <td><a href="books/details/{._id}">{.title}</a></td>
+						      <td><a href="/books/details/{.item}">{.title}</a></td>
 						      <td>{.qty}</td>
 						      <td>${@math key="{.price}" method="multiply" operand="{.qty}" /}</td>
 						    </tr>
